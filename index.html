@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>学習内容　まとめ</title>
+        <!--<link href="styles.css" rel="stylesheet"> -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+
+    <body class="h-100">
+        <header>
+            <h1 class="bg-primary-subtle p-3 mb-0"  >学習内容　まとめ</h1>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary  border-bottom">
+                <div class="container-fluid">
+                    <!--<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="ナビゲーションの切替"></button>-->
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <a class="nav-link active" aria-current="page" href="index.html">メイン</a></li>
+                        <li class="nav-item dropdown px-3">
+                            <a href="#web_front" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Webフロント</a>
+                            <ul  class="dropdown-menu py-0">
+                                <li class="p-2  border-bottom dropdown-item"><a href="web_front/html.html">HTML</a></li>
+                                <li class="p-2  border-bottom dropdown-item"><a href="web_front/css.html">CSS</a></li>
+                                <li class="p-2  dropdown-item"><a  href="web_front/javascript.html">JavaScript</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#web_front">Webバック</a>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="database/database.html">DB</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="d-flex flex-nowrap">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-2 overflow-auto"></div>
+                    <div class="col-8 bg-body-tertiary border-start border-end h-100 overflow-auto">
+                        <div class="d-flex flex-column align-items-stretch">
+                            <section>
+                                <h2  id="contents" class="p-2 pt-4">目次</h2>
+                                <ul class="list-group">
+                                    <li class="list-group-item"><a href="#web_front">Webフロント</a></li>
+                                    <li class="list-group-item"><a href="#web_back">Webバック</a></li>
+                                    <li class="list-group-item"><a href="#database">DB</a></li>
+                                </ul>
+                            </section>
+
+                            <section class="categorys">
+                                <h2 id="web_front"  class="p-2  pt-4">Webフロント</h2>
+                                <ul class="list-group">
+                                    <li class="list-group-item"><a href="web_front/html.html">HTML</a></li>
+                                    <li class="list-group-item"><a href="web_front/css.html">CSS</a></li>
+                                    <li class="list-group-item"><a href="web_front/javascript.html">JavaScript</a></li>
+                                    <li class="list-group-item"><a href="web_front/technic.html">色んなテクニック</a></li>
+                                </ul>
+                            </section>
+
+                            <section class="categorys">
+                                <h2 id="web_back"  class="p-2  pt-4">Webバック</h2>
+                                <ul class="list-group">
+                                    <li class="list-group-item"><a href="web_back/c_sharp.html">C#</a></li>
+                                </ul>
+                            </section>
+
+                            <section class="categorys">
+                                <h2 id="database"  class="p-2 pt-4">DB</h2>
+                                <ul class="list-group">
+                                    <li  class="list-group-item"><a href="database/db.html">DB</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                    <!--<aside class="bd-aside">-->
+                        <!-- <div class="d-flex flex-column align-items-stretch bg-body-tertiary"  style="width: 380px;"> -->
+                    <div class="col-2  px-0 overflow-auto">
+                        <div class="d-flex flex-column align-items-stretch bg-body-tertiary">
+                            <p class="d-flex align-items-center flex-shrink-0 p-3  text-decoration-none border-bottom  mb-0">
+                                <span class="fs-5 fw-semibold">項目</span>
+                            </p>
+                            <div class="list-group list-group-flush overflow-auto ">
+                                <!--<a href="#" class="list-group-item list-group-item-action active py-3 lh-sm" aria-current="true">
+                                    <div class="d-flex w-100 align-items-center justify-content-between">
+                                    <strong class="mb-1">グループアイテムの見出しを一覧表示</strong>
+                                    <small>水曜</small>
+                                    </div>
+                                    <div class="col-10 mb-1 small">見出しと日付の下の段落にあるプレースホルダーの内容。</div>
+                                </a>-->
+                                <a href="#contents" class="list-group-item list-group-item-action py-3 lh-sm">
+                                    <div class="d-flex  align-items-center justify-content-between">
+                                        <strong class="mb-1">目次</strong>
+                                    </div>
+                                </a>
+                                <a href="#web_front" class="list-group-item list-group-item-action py-3 lh-sm">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <strong class="mb-1">Webフロント</strong>
+                                    </div>
+                                </a>
+                                <a href="#web_back" class="list-group-item list-group-item-action py-3 lh-sm">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <strong class="mb-1">Webバック</strong>
+                                    </div>
+                                </a>
+                                <a href="#detabase" class="list-group-item list-group-item-action py-3 lh-sm">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <strong class="mb-1">DB</strong>
+                                    </div>
+                                </a>
+                                <div></div>
+                            </div>
+                            <!--</aside>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <!-- <script src="index.js"></script> -->
+    </body>
+</html>
